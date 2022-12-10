@@ -44,18 +44,17 @@ body {
     padding: 25px 0px;
     background-color: rgba(255, 255, 255, 0.75);
 }
-.menu li {
-    width: 25%;
-    float: left;
-    border-left: 1px solid #2c71b8;
-}
-.menu li:last-child {
-    border-right: 1px solid #2c71b8;
-}
 .logo {
     padding-top: 7px;
 }
-.menu a {
+.menu>li {
+    width: 25%;
+    float: left;
+}
+.menu>li:last-child {
+    border-right: 1px solid #2c71b8;
+}
+.menu>li>a {
     display: block;
     height: 50px;
     text-decoration: none;
@@ -64,10 +63,42 @@ body {
     color: #2c71b8;
     text-align: center;
     line-height: 50px;
+    border-left: 1px solid #2c71b8;
 }
-.menu a:hover {
+.products {
+    background-image: url(images/icon\ \(18\).png);
+    background-repeat: no-repeat;
+    background-position: 120px 22px;
+}
+.menu>li:hover a {
     color: white;
     background-color: #2c71b8;
+}
+.menu>li:hover a.products {
+    background-image: url(images/icon\ \(19\).png);
+}
+.menu>li:hover .drop-menu {
+    display: block;
+}
+.drop-menu {
+    display: none;
+    position: absolute;
+    width: 286px;
+    background-color: #2c71b8;
+    padding: 15px 0px;
+}
+.drop-menu>li>a {
+    display: block;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    background-color: #2c71b8;
+    padding: 10px 0px 10px 30px;
+}
+.drop-menu>li>a:hover {
+    color: #2c71b8;
+    background-color: white;
 }
 .search {
     width: 100%;
