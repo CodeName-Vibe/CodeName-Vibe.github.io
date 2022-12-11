@@ -20,11 +20,23 @@ body {
     display: block;
     clear: both;
 }
-.col-md-3 {
-    width: 25%;
+.col-md-12 {
+    width: 100%;
+}
+.col-md-9 {
+    width: 75%;
+}
+.col-md-8 {
+    width: calc(800%/12);
 }
 .col-md-6 {
     width: 50%;
+}
+.col-md-4 {
+    width: calc(400%/12);
+}
+.col-md-3 {
+    width: 25%;
 }
 .col-md-2 {
     width: calc(200%/12);
@@ -161,4 +173,200 @@ body {
     font-size: 12px;
     margin-top: -5px;
     margin-left: -4px;
+}
+.slide {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    color: white;
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 398px;
+}
+.setting {
+    height: 840px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-right: white solid 1px;
+}
+.history {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: default;
+    padding: 30px 0px;
+}
+.location {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    cursor: default;
+    margin-bottom: 30px;
+}
+.drop-down {
+    width: 270px;
+    height: 40px;
+    background-color: #2c71b8;
+    border: white 1px solid;
+    color: white;
+    font-weight: 300;
+    font-size: 21px;
+    padding-left: 20px;
+}
+.blank {
+    margin-top: 30px;
+}
+.blank-img {
+    position: relative;
+    width: 270px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.icon-9 {
+    background-image: url(images/icon\ \(9\).png);
+    background-repeat: no-repeat;
+    background-position: 84px 48px;
+}
+.icon-10 {
+    background-image: url(images/icon\ \(10\).png);
+    background-repeat: no-repeat;
+    background-position: 107px 39px;
+}
+.icon-11 {
+    background-image: url(images/icon\ \(11\).png);
+    background-repeat: no-repeat;
+    background-position: 84px 48px;
+}
+.icon-12 {
+    background-image: url(images/icon\ \(12\).png);
+    background-repeat: no-repeat;
+    background-position: 109px 39px;
+}
+.icon-13 {
+    background-image: url(images/icon\ \(13\).png);
+    background-repeat: no-repeat;
+    background-position: 107px 39px;
+}
+.icon-14 {
+    background-image: url(images/icon\ \(14\).png);
+    background-repeat: no-repeat;
+    background-position: 105px 39px;
+}
+.icon-15 {
+    background-image: url(images/icon\ \(15\).png);
+    background-repeat: no-repeat;
+    background-position: 102px 39px;
+}
+.icon-16 {
+    background-image: url(images/icon\ \(16\).png);
+    background-repeat: no-repeat;
+    background-position: 85px 60px;
+}
+.icon-17 {
+    background-image: url(images/icon\ \(17\).png);
+    background-repeat: no-repeat;
+    background-position: 84px 45px;
+}
+.blank-btn1 {
+    position: absolute;
+    left: 230px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/icon\ \(8\).png);
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    border: #2c71b8 1px solid;
+    cursor: pointer;
+}
+.blank-btn2 {
+    position: absolute;
+    left: 230px;
+    top: 50px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/icon\ \(5\).png);
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+    border: #2c71b8 1px solid;
+    cursor: pointer;
+}
+.blank-btn1:active {
+    background-color: #2c71b8;
+    background-image: url(images/icon\ \(6\).png);
+}
+.blank-btn2:active {
+    background-color: #2c71b8;
+    background-image: url(images/icon\ \(7\).png);
+}
+.blank-info {
+    background-color: rgba(44, 113, 184, 0.75);
+    border: white 1px solid;
+    padding: 15px;
+}
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.blank-info>p {
+    font-weight: 300;
+    font-size: 21px;
+    color: white;
+    margin-top: 15px;
+}
+.price {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    margin: 25px 0px;
+}
+.price>sup {
+    font-size: 24px;
+}
+.blank-btn3 {
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    background-color: #2c71b8;
+    border: 1px white solid;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.blank-btn4 {
+    width: 210px;
+    height: 50px;
+    padding-left: 30px;
+    line-height: 50px;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    background-image: url(images/icon\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: 175px 15px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.blank-btn3:active {
+    background-color: white;
+    color: #2c71b8;
+}
+.blank-btn4:active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.load {
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
 }
