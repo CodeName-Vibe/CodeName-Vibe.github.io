@@ -176,6 +176,7 @@ body {
 }
 .slide {
     height: 400px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     border-top: white solid 1px;
     border-bottom: white solid 1px;
