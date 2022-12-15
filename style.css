@@ -144,7 +144,7 @@ body {
     cursor: pointer;
     background-image: url(images/icon\ \(4\).png);
     background-repeat: no-repeat;
-    background-position: 7px 7px;
+    background-position: center;
 }
 .basket {
     height: 40px;
@@ -156,7 +156,7 @@ body {
     margin-left: 30px;
     background-image: url(images/icon\ \(1\).png);
     background-repeat: no-repeat;
-    background-position: 9px 9px;
+    background-position: center;
 }
 .basket-num-bg {
     width: 20px;
@@ -223,50 +223,36 @@ body {
     height: 180px;
     background-color: rgba(255, 255, 255, 0.75);
 }
+[class*="icon-"] {
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .icon-9 {
     background-image: url(images/icon\ \(9\).png);
-    background-repeat: no-repeat;
-    background-position: 84px 48px;
 }
 .icon-10 {
     background-image: url(images/icon\ \(10\).png);
-    background-repeat: no-repeat;
-    background-position: 107px 39px;
 }
 .icon-11 {
     background-image: url(images/icon\ \(11\).png);
-    background-repeat: no-repeat;
-    background-position: 84px 48px;
 }
 .icon-12 {
     background-image: url(images/icon\ \(12\).png);
-    background-repeat: no-repeat;
-    background-position: 109px 39px;
 }
 .icon-13 {
     background-image: url(images/icon\ \(13\).png);
-    background-repeat: no-repeat;
-    background-position: 107px 39px;
 }
 .icon-14 {
     background-image: url(images/icon\ \(14\).png);
-    background-repeat: no-repeat;
-    background-position: 105px 39px;
 }
 .icon-15 {
     background-image: url(images/icon\ \(15\).png);
-    background-repeat: no-repeat;
-    background-position: 102px 39px;
 }
 .icon-16 {
     background-image: url(images/icon\ \(16\).png);
-    background-repeat: no-repeat;
-    background-position: 85px 60px;
 }
 .icon-17 {
     background-image: url(images/icon\ \(17\).png);
-    background-repeat: no-repeat;
-    background-position: 84px 45px;
 }
 .blank-btn1 {
     position: absolute;
