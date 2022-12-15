@@ -292,11 +292,11 @@ body {
     border: #2c71b8 1px solid;
     cursor: pointer;
 }
-.blank-btn1:active {
+.blank-btn1:hover {
     background-color: #2c71b8;
     background-image: url(images/icon\ \(6\).png);
 }
-.blank-btn2:active {
+.blank-btn2:hover {
     background-color: #2c71b8;
     background-image: url(images/icon\ \(7\).png);
 }
@@ -348,7 +348,8 @@ body {
     font-size: 21px;
     font-weight: 700;
     color: white;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #2c71b8;
+    border: 1px white solid;
     cursor: pointer;
     background-image: url(images/icon\ \(2\).png);
     background-repeat: no-repeat;
@@ -356,12 +357,8 @@ body {
     margin: 0 auto;
     margin-bottom: 15px;
 }
-.blank-btn3:active {
-    background-color: white;
-    color: #2c71b8;
-}
-.blank-btn4:active {
-    background-color: rgba(255, 255, 255, 0.5);
+.blank-btn3:hover, .blank-btn4:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .load {
     color: white;
